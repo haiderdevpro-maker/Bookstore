@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>دفتر وقلم | متجر قرطاسية إلكتروني</title>
+<meta name="description" content="دفاتر وأقلام وأدوات مكتبية بتصميم أنيق وأسعار واضحة. اطلب مباشرة عبر واتساب.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;700&family=Readex+Pro:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">شحن مجاني للطلبات فوق 150 ر.س</div>
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="logo" href="#home">دفتر<b>.</b>قلم</a>
+    <nav aria-label="القائمة الرئيسية">
+      <a href="#shop">المنتجات</a>
+      <a href="#why">لماذا نحن</a>
+      <a href="#contact">تواصل</a>
+    </nav>
+    <a class="cart" href="https://wa.me/966500000000">اطلب عبر واتساب</a>
+  </div>
+</header>
+
+<main>
+<!-- الرئيسية -->
+<section class="hero" id="home">
+  <div class="wrap">
+    <div>
+      <h1>أدوات بسيطة تجعل يومك أكثر ترتيباً</h1>
+      <p>دفاتر بورق سميك، وأقلام تكتب بسلاسة، وتفاصيل صغيرة للمكتب. نجهّز طلبك خلال يومين.</p>
+      <a class="btn" href="#shop">تسوّق الآن</a>
+    </div>
+    <div class="stack" aria-hidden="true">
+      <span style="--c:#2b50ff">A5</span>
+      <span style="--c:#ff6b57">0.7</span>
+      <span style="--c:#14213d">12</span>
+    </div>
+  </div>
+</section>
+
+<!-- المنتجات -->
+<section id="shop">
+  <div class="wrap shop">
+    <h2>المنتجات</h2>
+
+    <div class="filters" role="radiogroup" aria-label="تصفية حسب القسم">
+      <input type="radio" name="f" id="f-all" checked>
+      <label for="f-all">الكل</label>
+      <input type="radio" name="f" id="f-nb">
+      <label for="f-nb">دفاتر</label>
+      <input type="radio" name="f" id="f-pen">
+      <label for="f-pen">أقلام</label>
+      <input type="radio" name="f" id="f-desk">
+      <label for="f-desk">مكتب</label>
+    </div>
+
+    <div class="products">
+      <article class="p" data-c="nb">
+        <div class="tile" style="--c:#2b50ff"><span>A5</span></div>
+        <h3>دفتر خطوط A5</h3>
+        <p>120 ورقة، غلاف مقوّى، ورق 100 جم.</p>
+        <div class="row"><span class="price">38 ر.س</span><a class="buy" href="https://wa.me/966500000000?text=أريد طلب: دفتر خطوط A5 (38 ر.س)">اطلب الآن</a></div>
+      </article>
+
+      <article class="p" data-c="nb">
+        <div class="tile" style="--c:#14213d"><span>نقاط</span></div>
+        <h3>دفتر نقاط للتخطيط</h3>
+        <p>مناسب للرسم والجداول والملاحظات.</p>
+        <div class="row"><span class="price">42 ر.س</span><a class="buy" href="https://wa.me/966500000000?text=أريد طلب: دفتر نقاط للتخطيط (42 ر.س)">اطلب الآن</a></div>
+      </article>
+
+      <article class="p" data-c="nb">
+        <span class="badge">جديد</span>
+        <div class="tile" style="--c:#7a5cff"><span>7 أيام</span></div>
+        <h3>مخطط أسبوعي</h3>
+        <p>52 أسبوعاً بدون تاريخ، ابدأ متى شئت.</p>
+        <div class="row"><span class="price">55 ر.س</span><a class="buy" href="https://wa.me/966500000000?text=أريد طلب: مخطط أسبوعي (55 ر.س)">اطلب الآن</a></div>
+      </article>
+
+      <article class="p" data-c="pen">
+        <div class="tile" style="--c:#ff6b57"><span>0.7</span></div>
+        <h3>قلم حبر جاف</h3>
+        <p>حبر أزرق سريع الجفاف، رأس 0.7 مم.</p>
+        <div class="row"><span class="price">7 ر.س</span><a class="buy" href="https://wa.me/966500000000?text=أريد طلب: قلم حبر جاف (7 ر.س)">اطلب الآن</a></div>
+      </article>
+
+      <article class="p" data-c="pen">
+        <span class="badge sale">خصم 20%</span>
+        <div class="tile" style="--c:#12a37f"><span>12</span></div>
+        <h3>طقم أقلام ملونة</h3>
+        <p>12 لوناً بحبر ناعم لا ينفذ للورق.</p>
+        <div class="row"><span class="price">36 ر.س <s>45 ر.س</s></span><a class="buy" href="https://wa.me/966500000000?text=أريد طلب: طقم أقلام ملونة (36 ر.س)">اطلب الآن</a></div>
+      </article>
+
+      <article class="p" data-c="pen">
+        <div class="tile" style="--c:#e0a800"><span>HB</span></div>
+        <h3>أقلام رصاص خشبية</h3>
+        <p>علبة 10 أقلام بدرجة HB مع ممحاة.</p>
+        <div class="row"><span class="price">18 ر.س</span><a class="buy" href="https://wa.me/966500000000?text=أريد طلب: أقلام رصاص خشبية (18 ر.س)">اطلب الآن</a></div>
+      </article>
+
+      <article class="p" data-c="desk">
+        <div class="tile" style="--c:#394b73"><span>3 خانات</span></div>
+        <h3>منظّم مكتب</h3>
+        <p>معدن مطلي بألوان هادئة، يتسع للأقلام والمذكرات.</p>
+        <div class="row"><span class="price">64 ر.س</span><a class="buy" href="https://wa.me/966500000000?text=أريد طلب: منظّم مكتب (64 ر.س)">اطلب الآن</a></div>
+      </article>
+
+      <article class="p" data-c="desk">
+        <div class="tile" style="--c:#ffb703"><span>100</span></div>
+        <h3>أوراق ملاحظات لاصقة</h3>
+        <p>5 ألوان، 100 ورقة لكل لون.</p>
+        <div class="row"><span class="price">14 ر.س</span><a class="buy" href="https://wa.me/966500000000?text=أريد طلب: أوراق ملاحظات لاصقة (14 ر.س)">اطلب الآن</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- لماذا نحن -->
+<section class="alt" id="why">
+  <div class="wrap">
+    <h2>لماذا تشتري منا</h2>
+    <div class="why">
+      <article><h3>توصيل خلال يومين</h3><p>نشحن لجميع المدن، والطلبات فوق 150 ر.س بدون رسوم.</p></article>
+      <article><h3>إرجاع خلال 14 يوماً</h3><p>إن لم يعجبك المنتج نستبدله أو نرد المبلغ.</p></article>
+      <article><h3>دفع عند الاستلام</h3><p>لا حاجة لبطاقة. ادفع عندما يصل الطلب.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- تواصل -->
+<section id="contact">
+  <div class="wrap split">
+    <div>
+      <h2>اعرف عروضنا أولاً</h2>
+      <p>اترك بريدك وسنرسل لك عرضاً واحداً في الأسبوع، دون إزعاج.</p>
+    </div>
+    <!-- غيّر action إلى رابط خدمة النماذج (Formspree أو Netlify Forms) -->
+    <form action="#" method="post">
+      <label>البريد الإلكتروني<input type="email" name="email" required autocomplete="email" dir="ltr" placeholder="name@example.com"></label>
+      <button class="btn" type="submit">اشترك</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot">
+    <div><h3>دفتر.قلم</h3><p>قرطاسية بسيطة وأنيقة، تصل إلى بابك.</p></div>
+    <div><h3>الأقسام</h3><ul><li><a href="#shop">دفاتر</a></li><li><a href="#shop">أقلام</a></li><li><a href="#shop">مكتب</a></li></ul></div>
+    <div><h3>تواصل</h3><p><span dir="ltr">+966 50 000 0000</span><br><span dir="ltr">hello@daftar-qalam.com</span></p></div>
+  </div>
+  <p class="wrap copy">© 2026 دفتر وقلم. جميع الحقوق محفوظة.</p>
+</footer>
+</body>
+</html>
